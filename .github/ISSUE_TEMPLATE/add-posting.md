@@ -1,10 +1,9 @@
 ---
 name: Add posting
 about: Request for your posting to be added
-title: ''
-labels: ''
-assignees: ''
-
+title: ""
+labels: ""
+assignees: ""
 ---
 
 Professor:
@@ -14,3 +13,5 @@ University Website:
 Lab Website:
 Contact Info:
 Topics:
+Looking for: PhD
+Timeline: Fall 24

@@ -60,9 +60,18 @@
       <a
         href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new?assignees=&labels=&projects=&template=add-posting.md&title="
       >
-          file an issue
-      </a>. The positions on this page should confer a Ph.D. (or other graduate degree)
+        file an issue
+      </a>
+      . The positions on this page should confer a Ph.D. (or other graduate degree)
       in the field of visualization (broadly defined). It is free to post!
+    </p>
+    <p>
+      <b>I have another question, how do I ask it?</b>
+      Please
+      <a href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new">
+        file an issue
+      </a>
+       and we'll get back to you as soon as we can!
     </p>
   </div>
   <rule />
@@ -102,9 +111,7 @@
               </div>
               <div>
                 <b>🗣️ Contact:</b>
-                {position["Contact Info"]
-                  .replaceAll(".", " DOT ")
-                  .replaceAll("@", " AT ")}
+                {position["Contact Info"]}
               </div>
 
               <div>

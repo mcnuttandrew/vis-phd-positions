@@ -1,7 +1,6 @@
 name: Deploy to Pages
 
-on:
-  workflow_dispatch:
+on: [push]
 
 permissions:
   contents: read

@@ -57,9 +57,14 @@
     <p>
       <b>I would like to list an position on this page, how do I do that?</b>
       If you would like to include a link to a position at your institution please
-      file a pull request, by filing an issue by clicking (HERE). The positions on
-      this page should confer a Ph.D. (or other graduate degree) in the field of
-      visualization (broadly defined). It is free to post!
+      file an issue by
+      <a
+        href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new?assignees=&labels=&projects=&template=add-posting.md&title="
+      >
+        clicking here
+      </a>
+      . The positions on this page should confer a Ph.D. (or other graduate degree)
+      in the field of visualization (broadly defined). It is free to post!
     </p>
   </div>
   <rule />

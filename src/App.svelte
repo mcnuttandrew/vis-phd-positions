@@ -60,7 +60,7 @@
       <a
         href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new?assignees=&labels=&projects=&template=add-posting.md&title="
       >
-          file an issue by
+          file an issue
       </a>. The positions on this page should confer a Ph.D. (or other graduate degree)
       in the field of visualization (broadly defined). It is free to post!
     </p>

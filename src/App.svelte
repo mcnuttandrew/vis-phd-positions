@@ -40,7 +40,7 @@
     <p>
       Are you considering a Ph.D. in visualization? Or some related position
       (MS, PostDoc, etc)? Not sure who is hiring? Not sure where to start
-      looking for positions? This page is an actively maintained (
+      looking for positions? This is an actively maintained (
       <i>for Fall 2023</i>
       ) page describing some open positions in this field. There are doubtless other
       locations hiring, but we hope that this will give you a nice start in your
@@ -71,7 +71,7 @@
       <a href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new">
         file an issue
       </a>
-       and we'll get back to you as soon as we can!
+      and we'll get back to you as soon as we can!
     </p>
   </div>
   <rule />

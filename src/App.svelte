@@ -52,7 +52,14 @@
       The set of postings refer
       <i>very</i>
       broadly to the field of visualization and you should look at each persons work
-      to see how they understand it and if your interests are shared.
+      to see how they understand it and if your interests are shared. There's also
+      a
+      <a
+        href="https://www.andrewkuz.net/public/dashboards/cs-hci-phd-opportunities/2024/html/cs-hci-phd-opportunities-2024.html"
+      >
+        similar list
+      </a>
+      for people seeking students in HCI more broadly.
     </p>
     <p>
       <b>I would like to list an position on this page, how do I do that?</b>
@@ -60,9 +67,9 @@
       <a
         href="https://github.com/mcnuttandrew/vis-phd-positions/issues/new?assignees=&labels=&projects=&template=add-posting.md&title="
       >
-        file an issue
+        file an issue.
       </a>
-      . The positions on this page should confer a Ph.D. (or other graduate degree)
+      The positions on this page should confer a Ph.D. (or other graduate degree)
       in the field of visualization (broadly defined). It is free to post!
     </p>
     <p>

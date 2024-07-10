@@ -1,16 +1,15 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import type { Position2324 } from '$lib/app-types';
+	import type { Position2425 } from '$lib/app-types';
 
-	export let data: { data: Position2324[] };
+	export let data: { data: Position2425[] };
 
 	$: schools = Object.entries(
 		data.data.reduce(
 			(acc, row) => {
-				acc[row['University ']] = (acc[row['University ']] || []).concat(row);
+				acc[row['University']] = (acc[row['University']] || []).concat(row);
 				return acc;
 			},
-			{} as Record<string, Position2324[]>
+			{} as Record<string, Position2425[]>
 		)
 	);
 </script>
@@ -81,15 +80,15 @@
 						<li class="position-row">
 							<div>
 								<b>
-									{`🎓 Professor${position.Professor.includes(',') ? 's' : ''}:`}
+									{`🎓 Professor${position.Name.includes(',') ? 's' : ''}:`}
 								</b>
 
-								{#if position['Personal Page']}
-									<a href={position['Personal Page']}>
-										{position.Professor}
+								{#if position['Personal Website']}
+									<a href={position['Personal Website']}>
+										{position.Name}
 									</a>
 								{:else}
-									{position.Professor}
+									{position.Name}
 								{/if}
 								{#if position['Lab Website'].length}
 									<a href={position['Lab Website']}>(Lab Website)</a>
@@ -97,13 +96,13 @@
 							</div>
 							<div>
 								<b>🗣️ Contact:</b>
-								{position['Contact Info']}
+								{position.Email}
 							</div>
 
 							<div>
 								🔭
 								<b>Positions sought:</b>
-								{position['Looking for']} ({position['Timeline']})
+								{position.Positions} ({position['Timeline']})
 							</div>
 							<div>
 								📚

@@ -18,6 +18,7 @@
 <div class="header full-width">
 	<h1>Open Grad Positions in Visualization</h1>
 	<h2>2023</h2>
+	<h3>Go to <a href="./">current year</a></h3>
 </div>
 <main>
 	<div class="full-width">

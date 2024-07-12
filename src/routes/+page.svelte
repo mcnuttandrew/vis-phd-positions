@@ -37,6 +37,7 @@
 			broadly to the field of visualization and you should look at each persons work to see how they
 			understand it and if your interests are shared. There's also a
 			<a
+				target="_blank"
 				href="https://www.andrewkuz.net/public/dashboards/cs-hci-phd-opportunities/2024/html/cs-hci-phd-opportunities-2024.html"
 			>
 				similar list
@@ -46,7 +47,7 @@
 		<p>
 			<b>I would like to list an position on this page, how do I do that?</b>
 			If you would like to include a link to a position at your institution please
-			<a href="https://forms.gle/tN6ihqEnrEoE7XwN7"> fill out this form. </a>
+			<a target="_blank" href="https://forms.gle/tN6ihqEnrEoE7XwN7"> fill out this form. </a>
 			The positions on this page should confer a Ph.D. (or other graduate degree) in the field of visualization
 			(broadly defined). It is free to post!
 		</p>
@@ -64,7 +65,7 @@
 			<li>
 				<h3 class="school-name">
 					{#if positions[0]['University Website']}
-						<a href={positions[0]['University Website']}>
+						<a target="_blank" href={positions[0]['University Website']}>
 							{schoolName}
 						</a>
 					{:else}
@@ -80,14 +81,14 @@
 								</b>
 
 								{#if position['Personal Website']}
-									<a href={position['Personal Website']}>
+									<a target="_blank" href={position['Personal Website']}>
 										{position.Name}
 									</a>
 								{:else}
 									{position.Name}
 								{/if}
 								{#if position['Lab Website'].length}
-									<a href={position['Lab Website']}>(Lab Website)</a>
+									<a target="_blank" href={position['Lab Website']}>(Lab Website)</a>
 								{/if}
 							</div>
 							<div>
@@ -112,7 +113,9 @@
 		{/each}
 	</ul>
 	<footer class="full-width thick-line">
-		We are grateful to Evan Peck's <a href={'https://cs-pui.github.io/'}> PUI page </a>
+		We are grateful to Evan Peck's <a target="_blank" href={'https://cs-pui.github.io/'}>
+			PUI page
+		</a>
 		for inspiration for the form of this page, its content, and its design.
 	</footer>
 </main>

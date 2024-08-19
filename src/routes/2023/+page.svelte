@@ -134,7 +134,7 @@
 		margin: 0 auto;
 		/* max-width: 240px; */
 		padding: 1em;
-		width: 600px;
+		max-width: 600px;
 	}
 
 	.header {
@@ -145,6 +145,7 @@
 		justify-content: center;
 		flex-direction: column;
 		padding: 45px;
+		box-sizing: border-box;
 	}
 
 	h1 {
@@ -152,6 +153,7 @@
 		font-weight: 100;
 		margin: 0;
 		padding: 0;
+		text-align: center;
 	}
 	h2 {
 		padding: 0;
@@ -185,11 +187,9 @@
 	@media (max-width: 640px) {
 		main {
 			overflow-x: hidden;
-			width: calc(100% - 4em);
 			margin: 0;
 		}
 		.header {
-			width: calc(100% - 4em);
 			padding: 20px;
 		}
 		.header h1 {

@@ -91,15 +91,19 @@
 									<a target="_blank" href={position['Lab Website']}>(Lab Website)</a>
 								{/if}
 							</div>
-							<div>
-								<b>🗣️ Contact:</b>
-								{position.Email}
-							</div>
+							{#if position.Email}
+								<div>
+									<b>🗣️ Contact:</b>
+									{position.Email}
+								</div>
+							{/if}
 
 							<div>
 								🔭
 								<b>Positions sought:</b>
-								{position.Positions} ({position['Timeline']})
+								{position.Positions}{#if position['Timeline']}<span class="ml-1">
+										({position['Timeline']})</span
+									>{/if}
 							</div>
 							<div>
 								📚
@@ -180,6 +184,10 @@
 		margin-top: 20px;
 		margin-bottom: 20px;
 		/* height: 200px; */
+	}
+
+	.ml-1 {
+		margin-left: 2px;
 	}
 
 	@media (max-width: 640px) {

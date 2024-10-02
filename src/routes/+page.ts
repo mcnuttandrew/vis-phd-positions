@@ -34,7 +34,7 @@ export const load: PageLoad = async ({ fetch }) => {
 					return y as Position2425;
 				})
 				.sort((a, b) => a['University'].localeCompare(b['University']))
-				.filter((x) => x['University'] !== '')
+				.filter((x) => x['Timestamp'] !== '')
 		);
 
 	return { data };
